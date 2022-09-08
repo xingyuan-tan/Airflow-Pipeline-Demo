@@ -51,11 +51,11 @@ In the Directed Acyclic Graph (DAG) file, I have employed these libraries and th
 - Pandas
 - Dateutil
 
-The requirements are described in the [requirements.txt](https://github.com/xingyuan-tan/PostgreSQL-Demo/blob/main/section_1/requirements.txt) file.
+The requirements are described in the [requirements.txt](https://github.com/xingyuan-tan/PostgreSQL-Demo/blob/main/requirements.txt) file.
 
 ##### Get started
-1. Place the DAG file ([pipeline_transformation.py](https://github.com/xingyuan-tan/PostgreSQL-Demo/blob/main/section_1/pipeline_transformation.py)) in the DAGs folder for your Airflow
-2. Configure the extraction and destination directory in the config file ([pipeline_transformation.cfg ](https://github.com/xingyuan-tan/PostgreSQL-Demo/blob/main/section_1/pipeline_transformation.cfg)) and place it with the DAG file
+1. Place the DAG file ([pipeline_transformation.py](https://github.com/xingyuan-tan/PostgreSQL-Demo/blob/main/pipeline_transformation.py)) in the DAGs folder for your Airflow
+2. Configure the extraction and destination directory in the config file ([pipeline_transformation.cfg ](https://github.com/xingyuan-tan/PostgreSQL-Demo/blob/main/pipeline_transformation.cfg)) and place it with the DAG file
 3. Start Airflow and enable the DAG for the pipeline to start extracting file from the target folder at every day 1.15 am. 
 
 
